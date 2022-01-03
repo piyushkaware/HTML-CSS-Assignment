@@ -5,3 +5,89 @@
 width: 100%;
 height: 100%;
 }
+.pageheader{
+    background-color: rgb(56, 70, 70);
+    padding: 40px;
+    margin: 10px 10px 10px 10px;
+}
+
+.logo{
+    float: left;
+   
+}
+
+.searchbar{
+    float: right;
+    margin-bottom: 30px;
+}
+form{
+    position: relative;
+    bottom: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.pageheader2{
+    background-color: rgb(189, 135, 65);
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+}
+.pageheader2 ul {
+    list-style-type: none;
+}
+.pageheader2 ul li {
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.pagecontent{
+    display: inline;
+}
+
+.leftsidebar{
+    border: 1px solid black;
+    margin: 8px;
+    width: 20%;
+    text-align: left;
+    float: left;
+}
+
+.leftsidebar ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+#main-content-section {
+    border: 1px solid black;
+    margin: 15px;
+    margin-left: 4%;
+    width: 50%;
+    text-align: center;
+}
+aside,section{
+    width: 20%;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.rightsidebar{
+    border: 1px solid black;
+    margin: 8px;
+    text-align: center;
+    float:right;
+}
+
+.rightsidebar ul{
+    list-style-type: none;
+    display: inline;
+}
+.rightsidebar ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+#page-footer{
+    border: 1px solid black;
+    text-align: center; 
+}
