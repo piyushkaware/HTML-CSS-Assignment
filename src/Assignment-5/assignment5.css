@@ -5,3 +5,33 @@
 width: 100%;
 height: 100%;
 }
+.card{
+    display: flex;
+    margin: 20px 50px;
+}
+.imgback{
+    background-color: rgb(102, 199, 102);
+    width: 350px;
+
+}
+.card h1,p,button{
+    margin: 30px 100px;
+}
+.img1{
+    position: relative;
+    top: -21px;
+    left: -31px;
+    height: 340px;
+    width: 400px;
+}
+button{
+    border-radius: 20px;
+    border-style: none;
+    width: 120px;
+    height: 45px;
+    color: white;
+    background-color: rgb(102, 199, 102);
+}
+p{
+    text-align: justify;
+}
